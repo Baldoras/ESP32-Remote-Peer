@@ -38,11 +38,11 @@
 // ESP-NOW EINSTELLUNGEN
 // ═══════════════════════════════════════════════════════════════════════════
 
-#define ESPNOW_MAX_PEERS          5           // Maximale Anzahl Peers
+#define ESPNOW_MAX_PEERS          1           // Maximale Anzahl Peers
 #define ESPNOW_CHANNEL            0           // WiFi-Kanal (0 = auto)
 #define ESPNOW_HEARTBEAT_INTERVAL 500         // Heartbeat alle 500ms
 #define ESPNOW_TIMEOUT_MS         2000        // Verbindungs-Timeout 2s
-#define ESPNOW_MAIN_DEVICE_MAC    "11:22:33:44:55:66"     // Peer MAC
+#define ESPNOW_MAIN_DEVICE_MAC    "10:20:BA:4D:6C:E4"     // Peer MAC
 
 // ═══════════════════════════════════════════════════════════════════════════
 // DEBUG EINSTELLUNGEN
